@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <!--
+         0%:00    5%:0b
+    	 10%:18   15%:25
+    	 20%:32   25%:3f
+    	 30%:4b   35%:58
+    	 40%:65   45%:72
+    	 50%:7f   55%:8b
+    	 60%:98   65%:a5
+    	 70%:b2   75%:bf
+    	 80%:cb   85%:d8
+    	 90%:e5   95%:f2
+    	 100%:ff
+    -->
+    
+    <color name="blue_2286bf">#2286bf</color>
+    <color name="red_900">#900</color>
+    <color name="grey_d9d9d9">#d9d9d9</color>
+    <color name="grey_eeeeee">#eeeeee</color>
+    <color name="grey_848484">#848484</color>
+    <color name="grey_e5e5e5">#e5e5e5</color>
+    <color name="color_e6e5e5">#e6e5e5</color>
+    <color name="color_2c97e2">#2c97e2</color>
+    <color name="red_f00">#F00</color>
+    <color name="color_ffff4444">#ffff4444</color>
+    <color name="bg_yellow_fcd200">#fcd200</color>
+    <color name="orange_d6a41d">#d6a41d</color>
+    <color name="orange_30_d6a41d">#55d6a41d</color>
+    <color name="orange_40_d6a41d">#66d6a41d</color>
+    <color name="orange_d6a61d">#d6a61d</color>
+    <color name="orange_fdc400">#fdc400</color>
+    <color name="orange_f9d406">#f9d406</color>
+    <color name="orange_d7ad06">#d7ad06</color>
+    <color name="orange_d7a91d">#d7a91d</color>
+    <color name="transparent">#0000</color>
+    <color name="white_fff">#FFF</color>
+    <color name="grey_dadada">#dadada</color>
+    <color name="black_000">#000</color>
+    <color name="black_60_000">#99000000</color>
+    <color name="black_40_000">#66000000</color>
+    <color name="black_50_000">#77000000</color>
+    <color name="black_333">#333333</color>
+    <color name="black_90">#DD000000</color>
+    <color name="grey_d3d3d3">#d3d3d3</color>
+    <color name="grey_f2f2f2">#F2F2F2</color>
+    <color name="grey_e6e6e6">#e6e6e6</color>
+    <color name="grey_999999">#999999</color>
+    <color name="grey_666666">#666666</color>
+    <color name="grey_cccccc">#cccccc</color>
+    <color name="blue_0aa1f8">#0aa1f8</color>
+    <color name="blue_06ff9">#068ff9</color>
+    <color name="red_fb2e06">#fb2e06</color>
+    <color name="white_f8f8f8">#f8f8f8</color>
+    <color name="red_ff8a73">#ff8a73</color>
+    <color name="blue_72e1e7">#72e1e7</color>
+    <color name="yellow_ffe179">#ffe179</color>
+    <color name="blue_4a97ff">#4a97ff</color>
+    <color name="blue_41b0fe">#41b0fe</color>
+    <color name="white_f5ffffff">#f5ffffff</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="black_00000070">#b2000000</color>
+    <color name="blue_6cadfe">#6cadfe</color>
+</resources>

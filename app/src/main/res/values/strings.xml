@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+		"     (&#34; 或 &quot;) 
+		'     (&#39; 或 &apos; 或 \') 
+		&     (&#38; 或 &amp;) 
+		lt(<) (&#60; 或 &lt;) 
+		gt(>) (&#62; 或 &gt;)
+		空格   &#160; 
+		换行   \n 
+		
+		<string name="data">整数型:%1$d，浮点型：%2$.2f，字符串:%3$s</string>
+		其中%后面是占位符的位置，从1开始，
+
+        $ 后面是填充数据的类型
+        %d：表示整数型；
+        %f ：表示浮点型，其中f前面的.2 表示小数的位数
+        %c：表示字符串
+		String data = getResources().getString(R.string.data); data = String.format(data, 100, 10.3, "2011-07-01");
+		949410441788630    
+		507281869429110
+		SnapFit15
+
+    -->
+
+    <string name="app_name">AnkoDemo</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">您最多只能选择５张照片</string>
+    <string name="txt_zhang">张</string>
+    <string name="action_settings">Settings</string>
+    <string name="feedbacks">咨询反馈</string>
+    <string name="txt_none">未知</string>
+    <string name="message">我的消息</string>
+    <string name="cancle_collect">取消收藏</string>
+    <string name="cancle_collect_fali">取消收藏失败</string>
+    <string name="collect_fali">收藏失败</string>
+    <string name="mores">咨询留言</string>
+    <string name="preferential">附近门店</string>
+    <string name="phoot">相册</string>
+    <string name="consults">咨询</string>
+    <string name="preview">预览</string>
+    <string name="cancel">取消</string>
+    <string name="find_new_version">发现新版本</string>
+    <string name="app_protocol">正品控注册协议</string>
+    <string name="scan_overtime_title">扫描超时</string>
+    <string name="scan_interrupt_title">扫描失败</string>
+    <string name="scan_result_title">扫描结果</string>
+    <string name="scan_check_title">验证有误</string>
+    <string name="scan_check_result_title">扫描结果</string>
+    <!-- 活动 -->
+    <string name="activity_protocol"><Data><![CDATA[轻触上面的  \"登录\" 按钮,即表示你同意 <font color="#2286bf">《正品控注册协议》</font>]]></Data></string>
+    <string name="activity_good">好</string>
+    <string name="activity_confirm_phone">确认手机号码</string>
+    <string name="activity_logout_success">退出成功</string>
+    <string name="activity_send_code">我们将发送验证码短信到这个号码</string>
+    <string name="activity_send_code_success">发送成功</string>
+    <string name="activity_send_code_failure">请重新验证</string>
+
+    <!-- 二维码扫描 -->
+    <string name="app_xiangqing">详情</string>
+    <string name="app_wanzhuan">玩转</string>
+    <string name="scan_again">再次扫描</string>
+    <string name="exit_application">再按一次 退出正品控</string>
+    <string name="search_good">请输入您要找的商品</string>
+    <string name="input_number_limit">搜索内容不可以超过20个字符</string>
+    <string name="input_content_illegal">输入字符不合法</string>
+    <string name="button_ok">好</string>
+
+    <!-- 内容防伪 -->
+    <string name="warm_tip">温馨提示</string>
+    <string name="goto_detail">进入产品详情页</string>
+
+    <!-- 正在加载 -->
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_loading">努力加载中&#8230;</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_refresh">正在刷新&#8230;</string>
+
+    <!-- 加载失败 -->
+    <string name="net_disconnect">无连接，请检查网络</string>
+    <string name="net_ungelivable">网络不给力</string>
+    <string name="no_net">网络不稳定</string>
+    <!-- 错误信息 -->
+    <string name="msg_camera_framework_bug">抱歉，相机出现问题，您可能需要重启设备或者打开相应权限。</string>
+
+    <!-- 提示信息 -->
+    <string name="newest_version">当前已是最新版本</string>
+
+    <!-- 系列界面 -->
+    <string name="activity_category_list_search">搜索</string>
+    <string name="activity_category_search_nonempty">输入的机型或名称不能为空</string>
+    <string name="my_consult">我的咨询：</string>
+    <string name="company_await">等待企业答复中&#8230;</string>
+    <string name="product_detail_fav_success">收藏成功</string>
+
+    <!-- favourablelist -->
+
+
+    <!-- 产品信息动态化 -->
+    <!-- <string name="url_blank">该链接地址为空</string> -->
+    <string name="input_search_content">请输入您要查询的内容</string>
+    <string name="user_center">个人中心</string>
+    <string name="user_center_favorite">我的收藏</string>
+    <string name="user_center_setting">设置</string>
+    <string name="user_center_feedback">意见反馈</string>
+    <string name="user_center_evaluate">鼓励一下</string>
+    <string name="user_center_share">推荐给朋友</string>
+    <string name="user_center_about">关于正品控</string>
+    <string name="user_center_nologged">点击登录</string>
+    <string name="user_favourite_item_downline">此产品已经下架</string>
+    <string name="user_favourite_item_delete">删除成功</string>
+    <string name="user_favourite_item_delete_fail">删除失败</string>
+    <string name="user_share_sms">短信</string>
+    <string name="user_share_sms_body">正品控，让老百姓放心购物！猛戳 http://www.wopuwulian.com/app.html 下载。</string>
+    <string name="user_share_sms_subject">【正品控】下载</string>
+    <string name="user_share_email">邮件</string>
+    <string name="user_share_copy">复制链接</string>
+    <string name="user_share_copy_success">复制成功！</string>
+    <string name="user_feedback">意见反馈</string>
+    <string name="user_feedback_success">感谢您的反馈</string>
+    <string name="user_feedback_failure">意见反馈信息提交失败</string>
+    <string name="user_feedback_content_length">意见反馈必须为5~140个字</string>
+    <string name="user_feedback_contact_mobile">手机号码</string>
+    <string name="user_feedback_mobile_noempty">手机号码不能为空</string>
+    <string name="user_feedback_contact_hint">请留下方便联系到您的手机号码</string>
+    <string name="user_feedback_suggest_hint">您的宝贵意见是我们前进的路灯…</string>
+    <string name="user_feedback_consult_hint">请输入咨询内容…</string>
+    <string name="user_feedback_consult_toast">请输入咨询内</string>
+    <string name="user_register_validate">验证</string>
+    <string name="user_register_revalidate">重新验证</string>
+    <string name="user_register_login_tip">请先登录</string>
+    <string name="user_register_phone_error">您输入的手机号码格式不正确，请核对</string>
+    <string name="user_register_login_mobile_blank">手机号码不能为空，请核对</string>
+    <string name="user_register_login_captcha_blank">验证码不能为空，请核对</string>
+    <string name="user_register_login_captcha_numeric">提示验证码不正确，请核对</string>
+    <string name="view_listview_deleted_delete">删除</string>
+    <string name="user_setting">设置</string>
+    <string name="user_setting_cache_clear">清除缓存</string>
+    <string name="user_setting_cache_success">缓存清除成功</string>
+    <string name="user_setting_version_info">版本</string>
+    <string name="user_setting_version_prefix">当前版本号：</string>
+    <string name="win_user_logout_exit">退出登录</string>
+    <!-- &#160 这个就代表着空格 -->
+    <string name="win_user_logout_cancel">取&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;消</string>
+    <string name="photo_update_fail">图片上传失败，请检查网络连接</string>
+    <!-- i-sell -->
+
+    <string name="text_phone">手机号码</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="model">型号</string>
+    <string name="model_maohao">型号：</string>
+    <string name="consulting_the_message">咨询留言</string>
+    <string name="enterprise_reply">企业答复：</string>
+    <string name="more_details">查看更多</string>
+    <string name="delete">删除</string>
+    <string name="additional">追加咨询</string>
+    <string name="product">产品名称：</string>
+    <string name="parameter">参数</string>
+    <string name="english_parameter">PARAMETERS</string>
+    <string name="feature">特色</string>
+    <string name="english_feature">FEATURES</string>
+    <string name="translate">预览</string>
+    <string name="consult">咨询：</string>
+    <string name="also_join_activity">您已参加过该活动</string>
+    <string name="toast_product_tab_activity_collected">已收藏</string>
+    <string name="toast_details_fragment_no_more">没有更多</string>
+    <string name="txt_welcome">Copyright©沃朴物联&#160;版权所有</string>
+    <string name="txt_loading">LOADING</string>
+    <string name="txt_title_near_stores">附近门店</string>
+    <string name="txt_title_compayn_introduction">企业简介</string>
+    <string name="txt_title_all_brands">所有品牌</string>
+    <string name="txt_title_json_fail">解析失败</string>
+    <string name="txt_title_http_no_data">请求无数据</string>
+    <string name="txt_title_http_return_false">请求有误</string>
+    <string name="txt_title_scan_guide_help">扫描帮助</string>
+    <string name="txt_title_scan_guide_step_one_c">第一步</string>
+    <string name="txt_title_scan_guide_step_one">STEP&#160;ONE</string>
+    <string name="txt_title_scan_guide_step_two_c">第二步</string>
+    <string name="txt_title_scan_guide_step_two">STEP&#160;TWO</string>
+    <!--
+         <string name="txt_title_step_three_c">第三步 </string>
+    <string name="txt_title_step_three">STEP&#160;THREE</string>
+    -->
+
+    <string name="txt_title_scan_guide_success">扫描完成</string>
+    <string name="txt_dialog_title_prompt">提示</string>
+    <string name="txt_dialog_exiting">正在退出</string>
+    <string name="txt_common_exception_net_error">网络异常，点击</string>
+    <string name="txt_common_exception_load_again">重新加载</string>
+    <string name="txt_common_exception_category_search_no_data">抱歉，未找到符合条件的商品</string>
+    <string name="txt_common_exception_near_store_no_data">请开启定位服务后重新加载</string>
+    <string name="txt_common_exception_collect_no_data">收藏为空，赶快去收藏吧</string>
+    <string name="txt_common_exception_no_data_tag">空</string>
+    <string name="txt_common_exception_json_fail">数据解析失败</string>
+    <string name="txt_common_exception_http_no_data">网络请求无数据</string>
+    <string name="txt_common_exception_http_return_false">请求有误</string>
+    <string name="txt_category_list_search">搜索</string>
+    <string name="txt_category_item_more">更多</string>
+    <string name="txt_category_search_tip">请输入型号或名称</string>
+    <string name="txt_activity_category_search_cancel">取消</string>
+    <string name="txt_activity_category_search_find">搜索发现</string>
+    <string name="txt_toast_json_net_error">网络不给力</string>
+    <string name="txt_sorry_no_store">抱歉，您所在的地区没有该产品的门店，</string>
+    <string name="txt_no_store">附近暂无门店</string>
+    <string name="txt_sorry_no_store_call_phone">请联系总部，谢谢！</string>
+    <string name="txt_have_newversion">有最新版</string>
+    <string name="txt_have_old">你的正品控已是过旧版本啦！</string>
+    <string name="txt_new_update">最近更新: </string>
+    <string name="txt_cancel">取消</string>
+    <string name="txt_yes">是</string>
+    <string name="txt_call">呼叫</string>
+    <string name="txt_dialog_net_error">网络发生连接发生错误,是否重新加载</string>
+    <string name="txt_dialog_net_notgoog">网络环境不稳定，可能要花更多时间获取信息</string>
+    <string name="txt_dialog_net_no">无网络，请连接网络后重试</string>
+    <string name="txt_user_register_login">登录</string>
+    <string name="txt_slogan">正品控，为正品而生</string>
+    <string name="scan_help">扫描帮助</string>
+    <string name="edt_hint_input_telephone">请输入您的手机号</string>
+    <string name="edt_hint_user_register_captcha_hint">请输入验证码</string>
+    <string name="txt_today">今天</string>
+    <string name="txt_days_ago"> 天前</string>
+    <string name="txt_month_ago">月前</string>
+    <string name="txt_half_a_year_ago">半年前</string>
+    <string name="txt_scan_hint_top_front">对准整个标签正面，即可开始扫描</string>
+    <string name="txt_dynamic_code_is_empty">动态码为空</string>
+    <string name="txt_scan_hint_bottom_front">将标签整体置于扫描框内</string>
+    <string name="txt_no_flash">当前设备没有闪光灯</string>
+    <string name="txt_off_flash_fail">关闭闪光灯失败</string>
+    <string name="txt_on_flash_fail">打开闪光灯失败</string>
+    <string name="txt_scan_hint_bottom_side">缓慢移动手机围绕整个标签旋转扫描</string>
+    <string name="txt_scan_hint_front_success">正面扫描成功</string>
+    <string name="txt_scan_guide_one">将整个标签置于取景框内，并保持镜头稳定</string>
+    <string name="txt_scan_guide_two">提示成功后，缓慢旋转并倾斜扫描整个标签</string>
+    <string name="txt_scan_guide_start">开始扫描</string>
+    <string name="txt_scan_over_time">扫描超时，请重新扫描</string>
+    <string name="txt_scan_net_error">抱歉，网络受阻，请再次扫描</string>
+    <string name="txt_scan_lcd_fail">扫描失败，是否在找</string>
+    <string name="txt_scan_no_find_product">很抱歉，没有找到您扫描的商品</string>
+    <string name="txt_purchaser">购买者:</string>
+    <string name="txt_scan_lei_start">缓慢倾斜手机，让亮片变色</string>
+    <string name="txt_scan_lei_5">继续倾斜手机让亮片变色</string>
+    <string name="txt_scan_lei_50">继续倾斜手机让亮片变色</string>
+    <string name="txt_scan_lei_no_change">缓慢倾斜手机，让亮片变色</string>
+    <string name="txt_scan_lei_guide0">请扫描整个标签</string>
+    <string name="txt_scan_lei_guide1">让防伪区域的亮片变换颜色</string>
+    <!-- <string name="txt_scan_lei_guide2">请保持光线充足，缓慢多角度扫描</string> -->
+    <string name="txt_scan_lei_guide2">如长时间不能识别，请查阅帮助</string>
+    <string name="submit">提交</string>
+    <string name="jump">跳过</string>
+    <string name="btn_upgrade">升级</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_good">好的</string>
+    <string name="btn_star_scan">开始扫描</string>
+    <string name="btn_all_brands">所有品牌</string>
+    <string name="btn_all_photo">所有图片</string>
+    <string name="txt_purchaser_name">购买者</string>
+    <string name="txt_idnumber">身份证号码</string>
+    <string name="txt_purchaser_time">购买时间</string>
+    <string name="txt_purchaser_yes">是我买的</string>
+    <string name="txt_purchaser_no">不是我</string>
+    <string name="confirm_fail">购买信息确认失败</string>
+    <string name="confirm_success">购买信息确认成功</string>
+    <string name="confirm_dialog">确认该条购买信息无误？</string>
+    <string name="txt_money">￥</string>
+    <string name="txt_ge_baobei">个宝贝</string>
+    <string name="purchaseinfo_title">购买信息</string>
+    <string name="txt_sources_of_date">正品数据来源于</string>
+    <string name="data_sources">中国防伪行业协会成员理事单位—沃朴物联  提供支持</string>
+    <string name="txt_no_shop">您的手机没有安装应用市场助手，请安装后再请评价，谢谢！</string>
+
+    <!-- 视频功能 -->
+    <string name="txt_video_fail">视频发生错误</string>
+    <string name="txt_having_local_video">正在使用本地缓存进行播放</string>
+    <string name="txt_having_data_video">正在使用数据流量播放，确定继续播放？</string>
+    <string name="txt_stop_video">停止播放</string>
+    <string name="txt_continue_video">继续播放</string>
+    <string name="txt_find_detail">查看详情</string>
+    <string name="txt_scan_success_brand">%1$s提示您</string>
+    <string name="txt_scan_success_product"><Data><![CDATA[您购买的<font color="#d6a41d">%1$s</font>是正品]]></Data></string>
+    <string name="toast_share_success">分享成功</string>
+    <string name="toast_share_fail">分享失败</string>
+    <string name="toast_share_cancel">分享取消</string>
+    <string name="toast_copy_address_success">复制地址成功</string>
+    <string name="txt_common_exception_near_store_location">正品控正在定位，请稍后回来查看</string>
+    <string name="txt_birthday">出生日期</string>
+    <string name="yrecycleview_header_hint_pulldown">下拉刷新</string>
+    <string name="yrecycleview_header_hint_refreshdone">刷新完成</string>
+    <string name="enterprise_reply_none">企业答复 &#160;&#160;</string>
+    <string name="txt_login_fail">登录失败</string>
+    <string name="txt_captcha_err">验证码不一致</string>
+    <string name="txt_login_success">登录成功</string>
+    <string name="txt_switch_language">语言</string>
+    <string name="txt_save">保存</string>
+    <string name="txt_language">语言</string>
+    <string name="txt_region">地区</string>
+    <string name="txt_new_version">\\\\新版本上线\\\\</string>
+    <string name="txt_dianzan">给苦逼工程师点个赞吧！</string>
+    <string name="txt_use_tel">使用手机号登录</string>
+    <string name="txt_use_email">使用邮箱登录</string>
+    <string name="txt_change_after_region">更改地区后，品牌列表将显示所选地区的品牌，是否继续？</string>
+    <string name="txt_confirm">确认</string>
+    <string name="txt_china">中国</string>
+    <string name="txt_italy">意大利</string>
+    <string name="txt_spain">西班牙</string>
+    <string name="txt_france">法国</string>
+    <string name="txt_input_email">请输入您的邮箱地址</string>
+    <string name="txt_default">默认</string>
+    <string name="txt_set_success">设置成功</string>
+    <string name="txt_switch_region">切换区域</string>
+    <string name="txt_switch_region_tishi">系统检测到您当前地理位置为中国，切换区域以获取准确信息</string>
+    <string name="btn_yes">好的</string>
+    <string name="btn_no">不用</string>
+    <string name="activity_confirm_email">确认邮箱</string>
+    <string name="activity_send_email_code">我们将发送验证码邮件到这个邮箱：</string>
+    <string name="toast_err_one">您输入的信息不完整 </string>
+    <string name="toast_err_two">您输入的信息有误 </string>
+    <string name="toast_err_three">出错了，请稍后再试 </string>
+    <string name="user_share_weixin">微信</string>
+    <string name="user_share_more">更多</string>
+    <string name="user_share_weixin_friends_circle">朋友圈</string>
+    <string name="txt_common_exception_net_error_title">网络异常</string>
+    <string name="txt_common_exception_h5_error_title">异常界面</string>
+     <string name="txt_common_exception_h5_error">出错了，请稍后再试 </string>
+    <string name="txt_dear_wxuser">亲爱的微信用户</string>
+    <string name="txt_for_more_good">为了给您更好的服务，请关联一个手机号</string>
+    <string name="user_get_register_validate">获取验证码</string>
+    <string name="txt_cooperative_account_login">或使用合作账号登录</string>
+    <string name="txt_weixin">微信</string>
+    <string name="txt_no_bind">未绑定</string>
+    <string name="dialog_bind">解绑后将无法使用 微信账号 登录本账号，确定解绑吗？</string>
+    <string name="txt_unbind">解除绑定</string>
+    <string name="toast_fail_no_wxinstall">请安装微信后再进行关联操作</string>
+    <string name="toast_login_fail">登录失败</string>
+    <string name="txt_no_login">未登录</string>
+    <string name="cancel_bind">取消授权</string>
+    <string name="toast_bind_success">绑定成功</string>
+    <string name="toast_unbind_fail">解绑失败</string>
+    <string name="toast_unbind_success">解绑成功</string>
+    <string name="toast_bind_fail">绑定失败</string>
+    <string name="toast_save_err">提交失败</string>
+    <string name="txt_unknown_message">未知消息类型</string>
+    <string name="txt_nonsupport">暂不支持该消息，请更新正品控版本进行查看</string>
+    <string name="txt_push_message">您有一条消息推送</string>
+    <string name="txt_push_buy">您有一条购买确认</string>
+<string name="toast_share_fail_no_install">分享失败，您没有安装微信</string>
+<string name="txt_share_title">是否正品一扫便知，专注于发现正品好货</string>
+    <string name="txt_share_txt">正品控，让老百姓放心购物，猛戳下载</string>
+    <string name="dia_no_safe">提示</string>
+<string name="dia_url_no_conetct">您将访问的链接不是私密链接,攻击者可能会试图该链接获取您的信息</string>
+<string name="toast_no_oppen">对不起，您所在的区域暂不支持该功能</string>
+<string name="hit_mobile">手机号码</string>
+
+<string name="user_center_act">活动中心</string>
+<string name="user_center_discount">我的优惠券</string>
+<string name="text_navigation">导航</string>
+<string name="text_select_map">请选择地图</string>
+<string name="text_gaode_map">高德地图</string>
+<string name="text_tengxun_map">腾讯地图</string>
+<string name="text_baidu_map">百度地图</string>
+<string name="text_google_map">谷歌地图</string>
+<string name="text_my_address">我的位置</string>
+<string name="text_bus">公交</string>
+<string name="text_car">驾车</string>
+<string name="text_walk">步行</string>
+<string name="txt_miniate">分钟</string>
+<string name="txt_youhui">优惠活动进行中</string>
+<string name="txt_no_bus">未获取到公交地铁信息</string>
+<string name="txt_no_car">未获取到驾车线路</string>
+<string name="txt_no_walk">未获取到步行线路</string>
+    <string name="user_center_customer">售后服务</string>
+    <string name="txt_push_customer">您有一条售后消息</string>
+</resources>

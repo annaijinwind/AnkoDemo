@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity_startup"
+    android:fitsSystemWindows="true"
+    >
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical" >
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="188" />
+
+        <LinearLayout
+            android:id="@+id/scanveryfy_on_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="onClick"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/orange_d6a41d" />
+
+                    <ImageView
+                        android:layout_width="260dp"
+                        android:layout_height="243dp"
+                        android:src="@drawable/bg_scan_normal" />
+
+                    <View
+                        android:layout_width="0dp"
+                        android:layout_height="1dp"
+                        android:layout_weight="1"
+                        android:background="@color/orange_d6a41d" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/scanveryfy"
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/scan_btn_normal"
+                     />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/btn_star_scan"
+                android:textColor="@color/white_fff"
+                android:textSize="20sp"
+                android:id="@+id/txtScanGuideStart"
+                 />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="146" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/allbrands_on_click"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/allbrands"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/all_brand_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/btn_all_brands"
+                    android:textColor="@color/white_fff"
+                    android:id="@+id/txtAllBrand"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/nearactivity_on_click"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                 android:layout_weight="1"
+                 >
+
+                <ImageView
+                    android:id="@+id/nearactivity"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/btn_local_stor_normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/preferential"
+                    android:textColor="@color/white_fff"
+                    android:id="@+id/txtStore"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/personal_activity_on_click"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                 android:layout_weight="1"
+                 >
+
+                <ImageView
+                    android:id="@+id/personal_activity"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/personal_normal" />
+
+                <TextView
+                    android:id="@+id/txtUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/user_center"
+                    android:textColor="@color/white_fff"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="33" />
+    </LinearLayout>
+
+
+</RelativeLayout>
